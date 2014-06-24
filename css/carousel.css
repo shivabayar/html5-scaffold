@@ -156,7 +156,8 @@ body {
 .screenshots-section
 {
   background-color: #2DCC60;
-  
+  padding: 30px;
+
 }  
 
 #screenshot-text
@@ -168,4 +169,12 @@ body {
 #screenshot-description
 {
   color: #FFFFFF;
+}
+
+#screenshot-images
+{
+  border: 30px;
+  border-color: white;
+  width: 200px; 
+  height: 130px;
 }
