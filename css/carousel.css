@@ -19,16 +19,19 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
+  background-color: #2C3E50;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-right: 0;
   padding-left: 0;
+  background-color: #2C3E50;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #2C3E50;
 }
 
 
@@ -67,6 +70,7 @@ body {
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -108,6 +112,7 @@ body {
   .marketing {
     padding-right: 0;
     padding-left: 0;
+
   }
 
   /* Navbar positioning foo */
@@ -144,4 +149,23 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+
+
+.screenshots-section
+{
+  background-color: #2DCC60;
+  
+}  
+
+#screenshot-text
+{
+  color: #555555;
+
+}
+
+#screenshot-description
+{
+  color: #FFFFFF;
 }
